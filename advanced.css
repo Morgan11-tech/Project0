@@ -1,0 +1,97 @@
+nav{
+    justify-content: space-between;
+    text-align: right;
+}
+nav a{
+    margin-right: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: inherit;
+    font-size: 18px;
+}
+.g_img{
+    height: 30px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+h3{
+   color: rgb(212, 18, 18);
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   font-size: 25px;
+   text-decoration: inherit;
+   margin-top: 50px;
+   margin-left: 50px; 
+}
+/*styling for main body content begins*/
+.container{
+    margin-right:40px;
+    margin-left: 50px;
+}
+.gridhead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 700px 400px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#right{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: inherit;
+    font-size: 15px;
+    color: gray; 
+}
+.rightside{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: inherit;
+    font-size: 15px;
+    color: gray;
+@media (min-width:992px) and (max-width: 1199px){
+    
+}    
+    
+    
+}
+.tb{
+    width:90%;
+    height: 35px;
+}
+.num-tb{
+    width:43%;
+    height: 35px;
+}
+.rightside span{
+    font-family: 'Courier New', Courier, monospace;
+}
+.dup{
+  border: none;
+  color: white;
+  background-color:rgb(0, 132, 255) ;
+  border-radius: 2px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 690px;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
